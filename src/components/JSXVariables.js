@@ -3,7 +3,7 @@ import React from "react";
 // TODO: Create a `name` variable
 const name = "Paul";
 // TODO: Create a `thoughts` variable
-const thoughts = "smells like";
+const thoughts = "is a fun framework to use";
 // This should be a string regarding what you think of React
 const number = 8;
 
