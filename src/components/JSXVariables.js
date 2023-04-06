@@ -5,7 +5,7 @@ const name = "Paul";
 // TODO: Create a `thoughts` variable
 const thoughts = "is a fun framework to use";
 // This should be a string regarding what you think of React
-const number = 8;
+const number = 4;
 
 function JSXVariables() {
   return (
