@@ -26,7 +26,7 @@ export default function Card(props) {
           <p className="card-text">Description: {props.description}</p>
           <p className="card-text">ID: {props.id}</p>
           <a href="#" className="btn btn-primary">
-            Adopt {/* Display the dog's name here */}
+            Adopt {props.name}
           </a>
         </div>
       </div>
