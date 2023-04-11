@@ -7,7 +7,9 @@ function List({ groceries }) {
       {groceries.map((item) => {
         return (
           // TODO: Your code here
-          <li key={item.name}>{`${item.name} ${item.id}`}</li>
+          <li
+            key={item}
+          >{`${item.name} (${item.id})(purchased = ${item.purchased})`}</li>
         );
       })}
     </ul>
