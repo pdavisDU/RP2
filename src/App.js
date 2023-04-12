@@ -1,41 +1,11 @@
 import React from "react";
-import List from "./components/List";
+// We import our Greeting component from the components folder so that we can eventually return it
+import Greeting from "./components/Greeting";
 
-const groceries = [
-  {
-    id: 1,
-    name: "Milk",
-    purchased: true
-  },
-  {
-    id: 2,
-    name: "Eggs",
-    purchased: true
-  },
-  {
-    id: 3,
-    name: "Cheese",
-    purchased: false
-  },
-  {
-    id: 4,
-    name: "Cake Mix",
-    purchased: false
-  },
-  {
-    id: 5,
-    name: "Carrots",
-    purchased: false
-  },
-  {
-    id: 6,
-    name: "Juice",
-    purchased: true
-  }
-];
-
+// App is our main component at the top level of our App that references other components
 function App() {
-  return <List groceries={groceries} />;
+  return <Greeting />;
 }
 
+// Here we export the App component so that it can be made available in `index.js`
 export default App;
