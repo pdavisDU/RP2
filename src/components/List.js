@@ -9,8 +9,9 @@ function List(props) {
         return (
           // TODO: Your code here
           <li
-            key={item.name}
-          >{` ${item.name}: purchased = ${item.purchased}`}</li>
+            className="list-group-item"
+            key={item.id}
+          >{` ${item.name} | purchased = ${item.purchased} | Unique ID = ${item.id}`}</li>
         );
       })}
     </ul>
