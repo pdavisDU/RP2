@@ -1,11 +1,10 @@
 import React from "react";
-// We import our Greeting component from the components folder so that we can eventually return it
+// First we import Greeting from the components folder
 import Greeting from "./components/Greeting";
 
-// App is our main component at the top level of our App that references other components
+// Our App component returns the Greeting component
 function App() {
   return <Greeting />;
 }
 
-// Here we export the App component so that it can be made available in `index.js`
 export default App;
